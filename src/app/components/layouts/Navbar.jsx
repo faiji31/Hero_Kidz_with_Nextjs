@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "./Logo";
 import Link from "next/link";
 import NavLink from "../buttons/NavLink";
+import { FaShoppingCart } from "react-icons/fa";
 
 const Navbar = () => {
       const nav = <>
@@ -54,8 +55,12 @@ const Navbar = () => {
           {nav}
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end space-x-4">
+          <Link className="btn btn-primary" href="/cart">
+            <FaShoppingCart />
+          </Link>
           <Link href="/login">
+         
             <button className="btn btn-primary btn-outline">Login</button>
           </Link>
         </div>
