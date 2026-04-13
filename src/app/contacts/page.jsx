@@ -60,7 +60,7 @@ const ContactPage = () => {
               ></textarea>
             </div>
 
-            <button className="btn btn-primary w-full mt-4">Send Message For Your</button>
+            <button className="btn btn-primary w-full mt-4">Send Message </button>
           </form>
         </div>
       </div>
