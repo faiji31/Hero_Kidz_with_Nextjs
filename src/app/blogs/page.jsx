@@ -1,5 +1,9 @@
 import React from "react";
 import Link from "next/link";
+export const metadata ={
+  title: "Blog",
+  description:"Browse our collection of all products"
+}
 
 const BlogPage = () => {
   // Mock data - eventually you can move this to a JSON file like toys.json

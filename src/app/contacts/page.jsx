@@ -1,12 +1,17 @@
 import React from "react";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
+export const metadata ={
+  title: "Contacts",
+  description:"Browse our collection of all products"
+}
+
 const ContactPage = () => {
   return (
     <div className="max-w-6xl mx-auto p-6 min-h-screen">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-primary mb-2">Contact Us</h1>
-        <p className="text-gray-500">Have questions? We'd love to hear from you.</p>
+        <p className="text-gray-500">Have questions? We love to hear from you.</p>
       </div>
 
       <div className="grid md:grid-cols-2 gap-12 items-start">
